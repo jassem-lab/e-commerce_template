@@ -634,7 +634,7 @@ a {
   margin: auto;
   flex-direction: column;
   align-items: center;
-  background: #eef2f9;
+  background: #fff;
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -667,7 +667,7 @@ a {
   justify-content: space-around;
 }
 .newsletter--input {
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid #e59285;
   border-radius: 10px;
   padding: 15px 30px;
    
@@ -678,10 +678,10 @@ a {
   color: rgba(0, 0, 0, 0.6);
 }
 .newsletter--input:focus {
-  border: 2px solid #ffc600;
+  border: 2px solid#e59285;
 }
 .newsletter--btn {
-  background-color: #ffc600;
+  background-color:#e59285;
   color: #111;
   border: none;
   text-transform: uppercase;
@@ -2191,7 +2191,7 @@ Header Styles
 .sticky__header.is-sticky {
   -webkit-animation: 0.4s ease-in-out 0s normal both 1 running fadeInDown;
   animation: 0.4s ease-in-out 0s normal both 1 running fadeInDown;
-  background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
   box-shadow: 0 0 5px #bdbdbd;
   left: 0;
   position: fixed;
@@ -2205,9 +2205,9 @@ Header Styles
 .header--two.sticky__header.is-sticky .mainmenu__nav .meninmenu {
   height: 55px; }
 .header__area.sticky__header.is-sticky .logo {
-  height: 40px;
+  height: 60px;
   line-height: 55px;
-  width: 85px;
+  width: 150px;
 }
 .header__box .header__area.sticky__header.is-sticky {
   padding-left: 80px;
@@ -6325,3 +6325,7 @@ section.wn_contact_area {
   padding-bottom: 60px;
 }
 }
+
+
+/* Search bar */
+
